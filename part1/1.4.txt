@@ -1,0 +1,6 @@
+docker container run -d --name looper devopsdockeruh/exec_bash_exercise
+docker container exec -it looper bash
+tail -f ./logs.txt
+
+Secret message is:
+"Docker is easy"
